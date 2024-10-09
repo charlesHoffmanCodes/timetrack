@@ -1,0 +1,7 @@
+/* LoginBox Component Styling */
+
+/* Styling for Sign up Link! */
+.loginDiv a {
+    display: block;
+    margin-top: 2vh;
+}

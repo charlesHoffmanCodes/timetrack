@@ -1,0 +1,68 @@
+/* App Component Styling  - Universally used styles */
+
+
+
+body {
+    background-color: #F9F6EE; /*SUCH A NICE EGGSHELL WHITE */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+/* SECTION - General Classes */
+.flexbox_Horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+
+.flexbox_Vertical {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+/* Standard Button */
+.standardButton {
+    border: 1px solid black;
+    background-color: #7CB9E8;
+
+    width: 10vw;
+    height: 5vh;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+
+/* Login / Sign up Pages */
+
+/* LoginBox Component Styling */
+
+/* Styling - Input fields of Login / Singup */
+.loginInput {
+    width: 60%; /*70% of parent box  width */
+    height: 5vh;
+    
+    margin: 4vh auto 4vh;
+    
+    display: block;
+
+    border: 1px solid black;;
+
+}
+
+/* Sytling - Box (div) containing inputs for Login / Signup */
+.loginDiv {
+
+    text-align: center;
+    margin: 20vh auto 0;
+    padding: 0;
+    width: 60%;
+
+}
+
+
+
+

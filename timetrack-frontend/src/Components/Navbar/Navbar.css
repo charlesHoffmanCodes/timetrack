@@ -1,0 +1,50 @@
+/* Stylying for Navbar */
+
+header {
+    background-color: #7CB9E8;
+    width: 100vw;
+    height: 10vh;
+    padding: 0;
+    margin: 0;
+    border: 1px solid black;
+}
+
+.Navbar div { 
+    display: block;   
+    height: 100%; 
+    padding: 0; 
+
+}
+
+/*Style for Navbar Links */
+.Navbar a {
+
+    display: inline-block;
+    text-align: center;
+    width: min-content;
+    padding: 0;
+    margin-right: 5vw;
+
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+
+    text-decoration: none;  /*Removes underline of link */
+
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 500;
+
+ 
+
+}
+
+.Navbar h1 {
+    margin-left: 3.2vw;
+
+
+
+
+
+    
+}

@@ -1,0 +1,45 @@
+/* Tracking Menu Component Styling */
+
+#ModeSelector {
+
+    justify-content: space-around;
+    
+    background-color: #7CB9E8;
+    text-align: center;
+    border: 1px solid black;
+
+    margin: 15vh auto -2vh;
+
+    width: 20vw;
+    height: 5vh;
+
+    font-size: 1.2rem;
+    font-weight: 600;
+
+
+}
+
+#ModeSelector button {
+    background-color: #7CB9E8;
+    border: none;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    
+
+}
+
+.time {
+    text-align: center;
+}
+
+.SSRMenu {
+    text-align: center;
+    margin-top: 10vh;
+
+}
+
+#resetButton {
+    margin-top: 2.5vh;
+}
+
